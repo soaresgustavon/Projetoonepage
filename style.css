@@ -262,16 +262,39 @@ a{
 
 #formulario{
     background-color: #bd9056be;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #consulta{
     font-family: Playfair Display;
     color: rgba(255, 255, 255, 0.821);
     text-align: center;
+    padding: 35px;
+    margin-top: 65px;
+    margin-bottom: 30px;
 }
 
-input{
-    width: 240px;
+#tituloFormulario{
+    color: rgb(92, 26, 26);
+    padding: 50px;
+    font-family: Open Sans;
+}
+
+#form{
+    font-size: 30px;
+    margin-left: 800px;
+    font-family: Open Sans;
+    background-color: rgb(92, 26, 26);
+    width: 300px;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#form:hover{
+   /* transform: scale(1.1);
+    transition-duration: 0.5s; */
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 10px 10px 10px 1px rgba(143, 38, 38, 0.452);
 }
