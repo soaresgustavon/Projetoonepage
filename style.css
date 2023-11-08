@@ -4,7 +4,7 @@
 }
 
 #logo{
-    width: 40%;
+    width: 65%;
     padding: 10px;
 }
 
@@ -23,7 +23,7 @@
     color: rgba(255, 255, 255, 0.821);
     list-style: none;
     font-family: Playfair Display;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 li{
