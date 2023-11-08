@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: Open Sans;
 }
 
 #logo{
@@ -30,6 +31,12 @@ li{
     font-family: Open Sans;
 }
 
+li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.821);
@@ -52,7 +59,7 @@ a{
 }
 
 #tituloclinicageral{
-    font-family: Playfair Display;
+    
     color: rgb(92, 26, 26);
     margin: 50px 0px 10px 50px;
     font-size: 35px;
@@ -75,7 +82,6 @@ a{
 }
 
 #tituloClareamento{
-    font-family: Playfair Display;
     color: rgb(92, 26, 26);
     margin: 50px 0px 10px 50px;
     font-size: 35px;
@@ -97,7 +103,6 @@ a{
 }
 
 #tituloCirurgiaOral{
-    font-family: Playfair Display;
     color: rgb(92, 26, 26);
     margin: 50px 0px 10px 50px;
     font-size: 35px;
@@ -119,7 +124,6 @@ a{
 }
 
 #tituloToxinaBotulinica{
-    font-family: Playfair Display;
     color: rgb(92, 26, 26);
     margin: 50px 0px 10px 50px;
     font-size: 35px;
@@ -175,16 +179,21 @@ a{
     justify-content: space-around;
 }
 
-.secao-feedbacks {
+.secao-feedbacks{
     background-color: rgba(255, 255, 255, 0.821);
     padding: 20px;
     text-align: center;
   }
+
+  .stars:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
   
-  .feedback {
+  .feedback{
     margin: 20px;
     padding: 10px;
-    background-color: rgb(92, 26, 26);
+    background-color: rgb(57, 2, 22);
     border-radius: 30px;
     align-items: center;
   }
@@ -213,6 +222,17 @@ a{
 #quemSouEu{
     display: grid;
     grid-auto-flow: column;
+}
+
+#linkDra{
+    background-color: #bd9056be;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#linkDra:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 
 #dra{
@@ -252,7 +272,7 @@ a{
     font-size: 30px;
     margin: 35px;
     font-family: Open Sans;
-    background-color: rgb(92, 26, 26);
+    background-color: rgb(57, 2, 22);
     color: rgba(255, 255, 255, 0.821);
     margin: 20px;
     padding: 50px;
@@ -284,7 +304,7 @@ a{
     font-size: 30px;
     margin-left: 800px;
     font-family: Open Sans;
-    background-color: rgb(92, 26, 26);
+    background-color: rgb(57, 2, 22);
     width: 300px;
     font-weight: bolder;
     border-radius: 10px;
@@ -296,5 +316,5 @@ a{
     transition-duration: 0.5s; */
     transform: translateY(-7px);
     transition-duration: 0.5s;
-    box-shadow: 10px 10px 10px 1px rgba(143, 38, 38, 0.452);
+    box-shadow: 10px 10px 10px 1px rgba(99, 26, 26, 0.452);
 }
