@@ -176,7 +176,7 @@ a{
 }
 
 .secao-feedbacks {
-    background-color: #f8f8f8;
+    background-color: rgba(255, 255, 255, 0.821);
     padding: 20px;
     text-align: center;
   }
@@ -186,6 +186,7 @@ a{
     padding: 10px;
     background-color: rgb(92, 26, 26);
     border-radius: 30px;
+    align-items: center;
   }
   
   .feedback img {
@@ -199,3 +200,78 @@ a{
     font-family: Open Sans;
     color: rgba(255, 255, 255, 0.821);
   }
+
+  #tituloQuemSouEu{
+    font-family:Playfair Display;
+    color: rgb(92, 26, 26);
+    background-color: #bd9056be;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#quemSouEu{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#dra{
+    width: 77%;
+    border-radius: 30px;
+    margin: 50px 1px 50px 50px;
+}
+
+#dra2{
+    width: 80%;
+    border-radius: 30px;
+    margin: 50px 20px 50px 50px;
+}
+
+#dra3{
+    width: 80%;
+    border-radius: 30px;
+    margin: 50px 20px 50px 50px;
+}
+
+.imgsDra{
+    justify-content: space-between;
+}
+
+.imgsDra:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+#nomeDoutora{
+    color: rgb(92, 26, 26);
+    font-family: Open Sans;
+    
+}
+
+#explicacaoDoutora{
+    font-size: 30px;
+    margin: 35px;
+    font-family: Open Sans;
+    background-color: rgb(92, 26, 26);
+    color: rgba(255, 255, 255, 0.821);
+    margin: 20px;
+    padding: 50px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+#formulario{
+    background-color: #bd9056be;
+    text-align: center;
+    
+}
+
+#consulta{
+    font-family: Playfair Display;
+    color: rgba(255, 255, 255, 0.821);
+    text-align: center;
+}
+
+input{
+    width: 240px;
+}
