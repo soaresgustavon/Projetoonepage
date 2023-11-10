@@ -318,3 +318,125 @@ a{
     transition-duration: 0.5s;
     box-shadow: 10px 10px 10px 1px rgba(99, 26, 26, 0.452);
 }
+
+@media only screen and (max-width: 600px){
+    #header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #lista{
+        display: flex;
+        flex-direction: column;
+        margin-right: 110px;
+    }
+
+    #tituloProcedimentos{
+        font-size: 20px;
+    }
+
+    #procedimentos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens{
+        width: 70%;
+    }
+
+    #tituloclinicageral{
+       padding-right: 50px;
+       font-size: 25px;
+    }
+
+    #explicacaoclinicageral{
+        font-size: 20px;
+        margin-bottom: 25px;
+        padding-right: 20px;
+    }
+
+    #tituloClareamento{
+        padding-right: 50px;
+        font-size: 25px;
+     }
+ 
+     #explicacaoClareamento{
+         font-size: 20px;
+         padding-right: 55px;
+         margin-bottom: 10px;
+     }
+
+     #procedimentos2{
+        display: flex;
+        flex-direction: column;
+     }
+
+     #tituloCirurgiaOral{
+        margin: 0px;
+        padding-right: 10px;
+        font-size: 25px;
+     }
+ 
+     #explicacaoCirurgiaOral{
+         font-size: 20px;
+         margin: 0px;
+         align-items: center;
+         padding-left: 15px;
+         padding-right: 15px;
+         margin-bottom: 80px;
+     }
+
+     #tituloToxinaBotulinica{
+        margin: 0px;
+        font-size: 25px;
+     }
+
+     #explicacaoToxinaBotulinica{
+        font-size: 20px;
+        padding-right: 50px;
+     }
+
+     #feedbacks p{
+        font-size: 20px;
+     }
+
+     #quemSouEu{
+        display: flex;
+        flex-direction: column;
+        margin-right: 26px;
+     }
+
+     #dra{
+        width: 80%;
+        margin-left: 50px;
+     }
+
+     #explicacaoDoutora h1{
+        font-size: 25px;
+     }
+
+     #explicacaoDoutora h3{
+        font-size: 15px;
+     }
+
+     #explicacaoDoutora{
+        font-size: 20px;
+     }
+
+     #explicacaoDoutora a{
+        font-size: 15px;
+     }
+
+     #tituloFormulario{
+        font-size: 25px;
+        
+     }
+
+     #form{
+        font-size: 20px;
+        margin-left: 55px;
+        width: 50%;
+        margin-left: 90px;
+     }
+}
