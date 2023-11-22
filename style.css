@@ -210,6 +210,10 @@ a{
     color: rgba(255, 255, 255, 0.821);
   }
 
+  #nomesFeedbacks{
+    font-size: 40px;
+  }
+
   #tituloQuemSouEu{
     font-family:Playfair Display;
     color: rgb(92, 26, 26);
@@ -227,11 +231,11 @@ a{
 #linkDra{
     background-color: #bd9056be;
     padding: 6px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #linkDra:hover{
-    transform: scale(1.1);
+    box-shadow: 4px 4px 10px;
     transition-duration: 0.5s;
 }
 
@@ -312,8 +316,6 @@ a{
 }
 
 #form:hover{
-   /* transform: scale(1.1);
-    transition-duration: 0.5s; */
     transform: translateY(-7px);
     transition-duration: 0.5s;
     box-shadow: 10px 10px 10px 1px rgba(99, 26, 26, 0.452);
