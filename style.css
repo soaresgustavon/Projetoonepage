@@ -235,7 +235,7 @@ a{
 }
 
 #linkDra:hover{
-    box-shadow: 4px 4px 10px;
+    box-shadow: 3px 4px 10px;
     transition-duration: 0.5s;
 }
 
